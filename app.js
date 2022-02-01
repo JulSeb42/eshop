@@ -25,6 +25,9 @@ app.use("/auth", auth)
 const users = require("./routes/users")
 app.use("/users", users)
 
+const products = require("./routes/products")
+app.use("/products", products)
+
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require("./error-handling")(app)
 

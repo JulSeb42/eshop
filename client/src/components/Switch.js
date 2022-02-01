@@ -25,6 +25,7 @@ import EditPassword from "../pages/user/EditPassword"
 
 // Utils
 import ProtectedRoutes from "./utils/ProtectedRoutes"
+import SeedLinks from "../pages/SeedLinks"
 
 function Switch() {
     const [allUsers, setAllUsers] = useState([])
@@ -40,6 +41,12 @@ function Switch() {
     return (
         <Routes>
             <Route path="/" element={<Home />} preload={scrollToTop()} />
+
+            <Route
+                path="/seed"
+                element={<SeedLinks />}
+                preload={scrollToTop()}
+            />
 
             {/* Auth */}
             <Route
