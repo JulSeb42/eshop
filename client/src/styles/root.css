@@ -1,3 +1,20 @@
 :root {
     /* Overrides page */
+    --color-primary-500: #445be4;
+    --color-primary-600: #152793;
+    --color-primary-300: #b3bdf4;
+    --color-primary-50: #e9ebfc;
+    --color-success-500: #26a96c;
+    --color-success-600: #0F432B;
+    --color-success-300: #71dfac;
+    --color-success-50: #eafaf3;
+    --color-danger-500: #e94f37;
+    --color-danger-600: #8E2110;
+    --color-danger-300: #f5b2a8;
+    --color-danger-50: #fcebe8;
+    --color-warning-500: #f4ac45;
+    --color-warning-600: #AD6A0A;
+    --color-warning-300: #fbe1bc;
+    --color-warning-50: #fef4e7;
+    --color-black: #020300;
 }

@@ -1,5 +1,5 @@
 const SiteData = {
-    Name: "App name",
+    Name: "Eshop React",
     Description: "",
     Favicon: "/favicon.ico",
     Email: "",
